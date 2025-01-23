@@ -1,15 +1,15 @@
 #!/bin/bash
 
-# Variables
-RESOURCE_GROUP="day4RG"
-CONTAINER_REGISTRY="day4container"
-CONTAINER_APP="day4containerapp"
-ENVIRONMENT="day4environment"
-LOCATION="southeastasia"
-IMAGE_NAME="flask-app"
+# Variables for  the shell script
+RESOURCE_GROUP="Resource Group Name"
+CONTAINER_REGISTRY="Container Registry Name"
+CONTAINER_APP="Container App Name"
+ENVIRONMENT="Environment Name"
+LOCATION="Region"
+IMAGE_NAME="Docker Image Name"
 
-APIM_NAME="day4apimservice"
-SKU="Consumption"
+APIM_NAME="API Management Service Name"
+SKU="Consumption/Standard/Premium"
 COMPANY_NAME="Your Company Name"
 ADMIN_EMAIL="Your Email"
 
@@ -104,4 +104,4 @@ az apim api operation create \
     --display-name "Get Items" \
     --method GET \
     --url-template "sports" \
-    --description "Get all items from the container app"
+    --description "Trigger a get request for /sports"
