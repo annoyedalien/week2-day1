@@ -10,8 +10,8 @@ IMAGE_NAME="flask-app"
 
 APIM_NAME="day4apimservice"
 SKU="Consumption"
-COMPANY_NAME="Annoyed Alien"
-ADMIN_EMAIL="ford.gonzales@gmail.com"
+COMPANY_NAME="Your Company Name"
+ADMIN_EMAIL="Your Email"
 
 
 # Create a resource group
