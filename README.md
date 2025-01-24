@@ -4,13 +4,19 @@ This project provides an API to fetch the NFL schedule using SerpAPI and Flask. 
 
 ## Table of Contents
 
+- Prerequisite
 - Installation
-- Usage
-- Deployment
-- API Endpoints
-- Environment Variables
+- Docker build
+- Resource Provision
+- Test
 
-
+## Prerequisites
+- Python / Flask
+- Azure Account
+- Azure CLI
+- VS Code (Optional)
+- Docker CLI / Desktop
+  
 ## Installation
 
 1. Clone the repository:
@@ -66,11 +72,9 @@ The script will create the following Azure resources
 - API for the Container App
 - API Operation GET
 
-
-
-## API Endpoints
-
-- `GET /sports`: Fetches the NFL schedule.
+### Test
+Copy the URL link on the API Management service 
+https://[api_management_service_name].azure-api.net/day4containerapp/sports
 
 ## Environment Variables
 
